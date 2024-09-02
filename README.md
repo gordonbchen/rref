@@ -9,7 +9,7 @@ While looping through rows:
 
 ## Usage
 Requirements:
-* `numpy`: for matricies and operations
+* `numpy`: for matrices and operations
 * `pytest` and `sympy`: for testing
 
 Files:
@@ -17,5 +17,5 @@ Files:
 * `test_rref.py`: contains `pytest` tests for rref
 
 ## Testing
-* Hand-calculated rrefs for multiple matricies
-* Automated testing on `sympy` rrefs of random matricies
+* Hand-calculated rrefs for multiple matrices
+* Automated testing on `sympy` rrefs of random matrices
