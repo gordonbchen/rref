@@ -9,7 +9,7 @@ from rref import rref
 
 @pytest.fixture
 def augmented_and_rref() -> list[tuple[list, list]]:
-    """Return a list of tuples of augmented matricies and their rrefs."""
+    """Return a list of tuples of augmented matrices and their rrefs."""
     return [
         (
             [[1, 2, 4, 5], [2, 4, 5, 4], [4, 5, 4, 2]],
@@ -39,7 +39,7 @@ def test_hand(augmented_and_rref: list[tuple[list, list]]) -> None:
 
 
 def test_sympy() -> None:
-    """Test that our rref agrees with sympy for random matricies."""
+    """Test that our rref agrees with sympy for random matrices."""
     for i in range(1_000):
         nrows = randint(2, 12)
         ncols = nrows + randint(1, 5)
