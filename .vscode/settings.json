@@ -1,0 +1,10 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+    },
+
+    "flake8.args": ["--ignore=E203", "--max-line-length=88"],
+    
+    "files.insertFinalNewline": true
+}
